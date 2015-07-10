@@ -1,6 +1,6 @@
 # Ember-intl-relativeformat
 
-This README outlines the details of collaborating on this Ember addon.
+A thin wrapper around [intl-relativeformat](https://github.com/yahoo/intl-relativeformat) that allows for `import IntlRelativeFormat from 'intl-relativeformat';` from within your ember application.
 
 ## Installation
 
