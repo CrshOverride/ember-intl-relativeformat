@@ -1,6 +1,6 @@
 {
   "name": "ember-intl-relativeformat",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A small wrapper around intl-relativeformat to support ES6 modules of intl-relativeformat.",
   "directories": {
     "doc": "doc",
@@ -22,7 +22,6 @@
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.2",
-    "broccoli-funnel": "^0.2.3",
     "ember-cli": "0.2.7",
     "ember-cli-app-version": "0.3.3",
     "ember-cli-content-security-policy": "0.4.0",
@@ -43,6 +42,7 @@
     "ember-addon"
   ],
   "dependencies": {
+    "broccoli-funnel": "^0.2.3",
     "broccoli-merge-trees": "^0.2.1",
     "ember-cli-babel": "^5.0.0",
     "ember-intl-messageformat": "^1.1.1",
