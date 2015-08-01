@@ -12,11 +12,7 @@ module.exports = {
 
   treeForAddon: function(tree) {
     var messageFormatParserTree = new Funnel(path.join(relativeFormatPath, 'src'));
-
-    var trees = mergeTrees([messageFormatParserTree, tree], {
-      overwrite: true
-    });
-
+    var trees = mergeTrees([messageFormatParserTree, tree]);
     return this._super.treeForAddon.call(this, trees);
   }
 };
